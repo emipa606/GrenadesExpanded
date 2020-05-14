@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Killer Bunny -->
+
+  <KillerRabbit.label>Killer Rabbit</KillerRabbit.label>
+  <KillerRabbit.labelPlural>Killer Rabbits</KillerRabbit.labelPlural>
+  <KillerRabbit.lifeStages.0.label>Killer Rabbit</KillerRabbit.lifeStages.0.label>
+  <KillerRabbit.lifeStages.0.labelPlural>Killer Rabbit</KillerRabbit.lifeStages.0.labelPlural>
+  <KillerRabbit.lifeStages.0.labelMale>male Killer Rabbit</KillerRabbit.lifeStages.0.labelMale>
+  <KillerRabbit.lifeStages.0.labelMalePlural>male Killer Rabbits</KillerRabbit.lifeStages.0.labelMalePlural>
+  <KillerRabbit.lifeStages.0.labelFemale>female Killer Rabbit</KillerRabbit.lifeStages.0.labelFemale>
+  <KillerRabbit.lifeStages.0.labelFemalePlural>female Killer Rabbits</KillerRabbit.lifeStages.0.labelFemalePlural>
+  <KillerRabbit.lifeStages.1.label>Killer Rabbit</KillerRabbit.lifeStages.1.label>
+  <KillerRabbit.lifeStages.1.labelPlural>Killer Rabbit</KillerRabbit.lifeStages.1.labelPlural>
+  <KillerRabbit.lifeStages.1.labelMale>male Killer Rabbit</KillerRabbit.lifeStages.1.labelMale>
+  <KillerRabbit.lifeStages.1.labelMalePlural>male Killer Rabbits</KillerRabbit.lifeStages.1.labelMalePlural>
+  <KillerRabbit.lifeStages.1.labelFemale>female Killer Rabbit</KillerRabbit.lifeStages.1.labelFemale>
+  <KillerRabbit.lifeStages.1.labelFemalePlural>female Killer Rabbits</KillerRabbit.lifeStages.1.labelFemalePlural>
+  <KillerRabbit.lifeStages.2.label>Killer Rabbit</KillerRabbit.lifeStages.2.label>
+  <KillerRabbit.lifeStages.2.labelPlural>Killer Rabbit</KillerRabbit.lifeStages.2.labelPlural>
+  <KillerRabbit.lifeStages.2.labelMale>male Killer Rabbit</KillerRabbit.lifeStages.2.labelMale>
+  <KillerRabbit.lifeStages.2.labelMalePlural>male Killer Rabbits</KillerRabbit.lifeStages.2.labelMalePlural>
+  <KillerRabbit.lifeStages.2.labelFemale>female Killer Rabbit</KillerRabbit.lifeStages.2.labelFemale>
+  <KillerRabbit.lifeStages.2.labelFemalePlural>female Killer Rabbits</KillerRabbit.lifeStages.2.labelFemalePlural>
+  <KillerRabbit.labelMale>male Killer Rabbit</KillerRabbit.labelMale>
+  <KillerRabbit.labelMalePlural>male Killer Rabbits</KillerRabbit.labelMalePlural>
+  <KillerRabbit.labelFemale>female Killer Rabbit</KillerRabbit.labelFemale>
+  <KillerRabbit.labelFemalePlural>female Killer Rabbits</KillerRabbit.labelFemalePlural>
+
+
+</LanguageData>

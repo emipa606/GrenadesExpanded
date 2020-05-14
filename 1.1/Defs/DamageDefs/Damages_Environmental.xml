@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Inferno cannon ========================== -->
+  <DamageDef ParentName="Flame">
+    <defName>InfernoBlaze</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>blaze</label>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <deathMessage>{0} has burned to death in a fireball.</deathMessage>
+    <minDamageToFragment>8</minDamageToFragment>
+    <defaultDamage>5</defaultDamage>
+    <defaultArmorPenetration>0.01</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>8</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastFlame</explosionCellMote>
+    <explosionColorCenter>(1, 0.5, 0.7)</explosionColorCenter>
+    <explosionColorEdge>(0.25, 1, 0.5)</explosionColorEdge>
+    <soundExplosion>Explosion_Flame</soundExplosion>
+  </DamageDef>
+  <!-- ==================== Inferno grenade ========================== -->
+  <DamageDef ParentName="Flame">
+    <defName>InfernoBomb</defName>
+    <workerClass>DamageWorker_Flame</workerClass>
+    <label>inferno</label>
+    <hasForcefulImpact>true</hasForcefulImpact>
+    <deathMessage>{0} has burned to death in an inferno.</deathMessage>
+    <minDamageToFragment>9</minDamageToFragment>
+    <defaultDamage>7</defaultDamage>
+    <defaultArmorPenetration>0.01</defaultArmorPenetration>
+    <explosionHeatEnergyPerCell>10</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastFlame</explosionCellMote>
+    <explosionColorCenter>(1, 0.6, 0.7)</explosionColorCenter>
+    <explosionColorEdge>(1, 1, 0.6)</explosionColorEdge>
+    <soundExplosion>Explosion_Flame</soundExplosion>
+    <canUseDeflectMetalEffect>true</canUseDeflectMetalEffect>
+  </DamageDef>
+  <!-- ==================== Firecracker ========================== -->
+  <DamageDef ParentName="Bomb">
+    <defName>FirecrackerBomb</defName>
+    <label>microexplosion</label>
+    <workerClass>Firecracker.DamageWorker_BombNoCamShake</workerClass>
+    <externalViolence>true</externalViolence>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} was ripped apart in a microexplosion.</deathMessage>
+    <hediff>Shredded</hediff>
+    <hediffSolid>Crack</hediffSolid>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <impactSoundType>Blunt</impactSoundType>
+    <armorCategory>Blunt</armorCategory>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>3</defaultDamage>
+    <defaultStoppingPower>0.1</defaultStoppingPower>
+    <defaultArmorPenetration>0.05</defaultArmorPenetration>
+    <buildingDamageFactor>9</buildingDamageFactor>
+    <plantDamageFactor>4</plantDamageFactor>
+    <explosionAffectOutsidePartsOnly>false</explosionAffectOutsidePartsOnly>
+    <explosionHeatEnergyPerCell>5</explosionHeatEnergyPerCell>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(1, 0.4, 0.2)</explosionColorCenter>
+    <explosionColorEdge>(0.5, 0.5, 0.3)</explosionColorEdge>
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+  </DamageDef>
+  <!-- ==================== Dynamite ========================== -->
+  <DamageDef ParentName="Bomb">
+    <defName>DynamiteStick</defName>
+    <label>TNT explosion</label>
+    <workerClass>Firecracker.DamageWorker_BombNoCamShake</workerClass>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died in a TNT explosion.</deathMessage>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>12</defaultDamage>
+    <defaultStoppingPower>0.1</defaultStoppingPower>
+    <explosionCellMote>Mote_BlastFlame</explosionCellMote>
+    <explosionColorCenter>(1, 0.5, 0.3)</explosionColorCenter>
+    <explosionColorEdge>(0.6, 0.5, 0.4)</explosionColorEdge>
+  </DamageDef>
+  <!-- ==================== Stielhandgranate ========================== -->
+  <DamageDef ParentName="Bomb">
+    <defName>GrenadeStackHand</defName>
+    <label>fireshards</label>
+    <workerClass>Firecracker.DamageWorker_BombNoCamShake</workerClass>
+    <isExplosive>true</isExplosive>
+    <deathMessage>{0} has died in a nitroreaction explosion.</deathMessage>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <defaultStoppingPower>0.1</defaultStoppingPower>
+    <defaultArmorPenetration>0.01</defaultArmorPenetration>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <explosionColorCenter>(1, 0.7, 0.5)</explosionColorCenter>
+    <explosionColorEdge>(0.8, 0.6, 0.4)</explosionColorEdge>
+  </DamageDef>
+  <!-- ==================== Thermal Detonator ========================== -->
+  <DamageDef>
+    <defName>Thermalblast</defName>
+    <label>thermalblast</label>
+    <workerClass>DamageWorker_Frostbite</workerClass>
+    <externalViolence>false</externalViolence>
+    <deathMessage>{0} has succumbed to deepfrost.</deathMessage>
+    <hediff>Frostbite</hediff>
+    <harmAllLayersUntilOutside>true</harmAllLayersUntilOutside>
+    <canUseDeflectMetalEffect>false</canUseDeflectMetalEffect>
+    <additionalHediffs>
+      <li>
+        <hediff>HypothermicSlowdown</hediff>
+      </li>
+    </additionalHediffs>
+  </DamageDef>
+  <!-- ==================== Army Frag ========================== -->
+  <DamageDef ParentName="Bomb">
+    <defName>CaseFragmentation</defName>
+    <label>fragmentation</label>
+    <workerClass>DamageWorker_AddInjury</workerClass>
+    <defaultArmorPenetration>0.1</defaultArmorPenetration>
+    <explosionColorCenter>(1, 0.5, 0.9)</explosionColorCenter>
+    <explosionColorEdge>(1, 0.8, 0.6, 0.8)</explosionColorEdge>
+    <explosionCellMote>Mote_BlastDry</explosionCellMote>
+    <!-- Mote_BlastExtinguisher -->
+    <soundExplosion>Explosion_Bomb</soundExplosion>
+    <!-- Explosion_Flame -->
+    <externalViolence>true</externalViolence>
+    <deathMessage>{0} has been pulverized.</deathMessage>
+    <minDamageToFragment>15</minDamageToFragment>
+    <defaultDamage>10</defaultDamage>
+    <hediff>Trunken_hediff_Shrapnels</hediff>
+    <hasForcefulImpact>true</hasForcefulImpact>
+  </DamageDef>
+</Defs>

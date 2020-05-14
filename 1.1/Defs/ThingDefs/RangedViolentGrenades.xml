@@ -1,0 +1,353 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- ==================== Hornet Nest grenade ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>Weapon_HornetNest</defName>
+    <label>Hornet Nest</label>
+    <description>The close to hand hornet nest. They're already angry and willing to sting. Poison build up by too many hornet stings can lead to loss of consciousness and heart attacks.</description>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+      <workSkill>Crafting</workSkill>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+      <effectWorking>Tailor</effectWorking>
+      <!-- SmithingSpeed -->
+      <soundWorking>Recipe_Tailor</soundWorking>
+      <recipeUsers>
+        <li>CraftingSpot</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadeNest</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Neolithic</techLevel>
+    <statBases>
+      <Mass>15</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <MaxHitPoints>75</MaxHitPoints>
+      <MarketValue>200</MarketValue>
+      <WorkToMake>2500</WorkToMake>
+    </statBases>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <WoodLog>5</WoodLog>
+      <MedicineHerbal>25</MedicineHerbal>
+      <WoolMuffalo>50</WoolMuffalo>
+    </costList>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <!-- throw hive grenade -->
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>24.5</range>
+        <forcedMissRadius>0.5</forcedMissRadius>
+        <warmupTime>3</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_AvoidFriendlyFireRadius>10</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>SwooshBees</soundCast>
+        <soundCastTail>Hornets_Attack</soundCastTail>
+        <defaultProjectile>GrenadeHornet_Nest</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>true</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GrenadeHornet_Nest</defName>
+    <label>Flying hive</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Special/Proj_GrenadeHornets</texPath>
+      <graphicClass>Graphic_Random</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>15</speed>
+      <explosionRadius>7.5</explosionRadius>
+      <damageAmountBase>1</damageAmountBase>
+      <damageDef>HornetVenom</damageDef>
+      <explosionDelay>3</explosionDelay>
+      <soundExplode>Hornets_Screencrash</soundExplode>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Toxic Flask ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>Weapon_GrenadeToxic</defName>
+    <label>Toxic Flask</label>
+    <description>A very fragile flask filled with some brew of an alchemist. It whirls dreadful through the organism, until it reaches the brain cells. No one really knows, whats in, but the absurd effect, when its get shattered, speaks volumes.</description>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <skillRequirements>
+        <Cooking>10</Cooking>
+      </skillRequirements>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Brewing</soundWorking>
+      <recipeUsers>
+        <li>DrugLab</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>Alchemy</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadeToxic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Medieval</techLevel>
+    <statBases>
+      <Mass>4</Mass>
+      <RangedWeapon_Cooldown>0.3</RangedWeapon_Cooldown>
+      <MaxHitPoints>50</MaxHitPoints>
+      <MarketValue>550</MarketValue>
+      <WorkToMake>3500</WorkToMake>
+      <SmokepopBeltRadius>3500</SmokepopBeltRadius>
+    </statBases>
+    <comps>
+      <li Class="CompProperties_Explosive">
+        <explosiveRadius>5</explosiveRadius>
+        <explosiveDamageType>Flame</explosiveDamageType>
+        <chanceNeverExplodeFromDamage>0.5</chanceNeverExplodeFromDamage>
+      </li>
+    </comps>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <PsychoidLeaves>17</PsychoidLeaves>
+      <MedicineHerbal>23</MedicineHerbal>
+      <SmokeleafLeaves>420</SmokeleafLeaves>
+    </costList>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <!-- throw toxic flask -->
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>18.5</range>
+        <forcedMissRadius>0.25</forcedMissRadius>
+        <warmupTime>2.7</warmupTime>
+        <noiseRadius>7</noiseRadius>
+        <ai_AvoidFriendlyFireRadius>1</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>false</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>FlyingCork</soundCast>
+        <defaultProjectile>GrenadeToxic</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>true</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GrenadeToxic</defName>
+    <label>Toxic gas</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadeToxic</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <speed>18</speed>
+      <explosionChanceToStartFire>0.05</explosionChanceToStartFire>
+      <explosionRadius>4.5</explosionRadius>
+      <damageAmountBase>2</damageAmountBase>
+      <damageDef>ToxicGasCloud</damageDef>
+      <explosionDelay>1</explosionDelay>
+      <soundImpactAnticipate>BubbleTea</soundImpactAnticipate>
+      <soundExplode>BreakBottle</soundExplode>
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Acid Missile ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>Weapon_GrenadeAcid</defName>
+    <label>Acid bomb</label>
+    <description>Throwing missile filled up with hyperreactive liquids right up to the brim. The outer shell conserves the inner fluids with a special protective plastic layer. On contact, the pressure, unloads on contact in a deadly cloud of volitile acid.\n\nThe belt is loaded with these babies.</description>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <workSpeedStat>CookSpeed</workSpeedStat>
+      <workSkill>Cooking</workSkill>
+      <skillRequirements>
+        <Cooking>15</Cooking>
+      </skillRequirements>
+      <effectWorking>Cook</effectWorking>
+      <soundWorking>Recipe_Brewing</soundWorking>
+      <recipeUsers>
+        <li>DrugLab</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadeAcid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Industrial</techLevel>
+    <statBases>
+      <Mass>7</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <MaxHitPoints>100</MaxHitPoints>
+      <MarketValue>750</MarketValue>
+      <WorkToMake>5000</WorkToMake>
+    </statBases>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <Uranium>25</Uranium>
+      <Silver>250</Silver>
+      <Chemfuel>25</Chemfuel>
+    </costList>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <!-- throw acid bomb -->
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>25.5</range>
+        <forcedMissRadius>0.25</forcedMissRadius>
+        <warmupTime>0.75</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_AvoidFriendlyFireRadius>6</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>ThrowGrenade</soundCast>
+        <defaultProjectile>GrenadeAcid</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>true</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GrenadeAcid</defName>
+    <label>Vacuum Acid</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Special/Proj_GrenadeAcid</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>4.5</explosionRadius>
+      <damageAmountBase>3</damageAmountBase>
+      <damageDef>GrenadeAcidBomb</damageDef>
+      <explosionDelay>0</explosionDelay>
+      <soundExplode>MortarIncendiary_Explode</soundExplode>
+      <soundImpactAnticipate>MortarRound_PreImpact</soundImpactAnticipate>
+      <soundAmbient>MortarRound_Ambient</soundAmbient>
+      <preExplosionSpawnThingDef>Filth_Slime</preExplosionSpawnThingDef>
+      <!-- Filth_Vomit -->
+    </projectile>
+  </ThingDef>
+  <!-- ==================== Poison Grenade ========================== -->
+  <ThingDef ParentName="BaseMakeableGrenade">
+    <defName>Weapon_GrenadePoison</defName>
+    <label>Poison Ivy</label>
+    <description>Grenade that holds an huge amount of compressed gas inside. This very experimental version was originally processed by a mad scientist for bio warfare, somewhere in a secret military base asteroid (MBA).\n\nThere are illegible notes left behind: "Test record A51, Day 901, somewhere at the back of beyond. Zyklon E-V-E scored the best results of all substances. The gas has various cringe effects on body and mind, which end in loss of all body functions and motoric abilities. Especially the muscles don't appear to answer anymore, accompanied by uncontrollable shivering, the rate of the heart raises rapidly... until it stops beating. 1 minute and 55 seconds until time of death by test subject #201523. Boss will be happy."</description>
+    <tickerType>Normal</tickerType>
+    <recipeMaker>
+      <workSpeedStat>DrugCookingSpeed</workSpeedStat>
+      <workSkill>Intellectual</workSkill>
+      <skillRequirements>
+        <Intellectual>20</Intellectual>
+      </skillRequirements>
+      <effectWorking>BurnDrug</effectWorking>
+      <soundWorking>Recipe_Brewing</soundWorking>
+      <recipeUsers>
+        <li>DrugLab</li>
+        <li>ElectricSmithy</li>
+        <li>FueledSmithy</li>
+      </recipeUsers>
+      <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+      <researchPrerequisite>GasOperation</researchPrerequisite>
+    </recipeMaker>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadePoison</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <soundInteract>Interact_Grenade</soundInteract>
+    <techLevel>Spacer</techLevel>
+    <!-- Ultra -->
+    <statBases>
+      <Mass>9</Mass>
+      <RangedWeapon_Cooldown>3</RangedWeapon_Cooldown>
+      <MarketValue>950</MarketValue>
+      <WorkToMake>7500</WorkToMake>
+    </statBases>
+    <tradeTags>
+      <li>ExoticMisc</li>
+    </tradeTags>
+    <costList>
+      <Uranium>5</Uranium>
+      <Chemfuel>25</Chemfuel>
+      <Yayo>50</Yayo>
+    </costList>
+    <thingCategories>
+      <li>Grenades</li>
+    </thingCategories>
+    <verbs>
+      <li>
+        <!-- throw poison grenade -->
+        <verbClass>Verb_LaunchProjectile</verbClass>
+        <hasStandardCommand>true</hasStandardCommand>
+        <range>35</range>
+        <forcedMissRadius>0.1</forcedMissRadius>
+        <warmupTime>3.5</warmupTime>
+        <noiseRadius>4</noiseRadius>
+        <ai_AvoidFriendlyFireRadius>8</ai_AvoidFriendlyFireRadius>
+        <ai_IsBuildingDestroyer>true</ai_IsBuildingDestroyer>
+        <targetParams>
+          <canTargetLocations>true</canTargetLocations>
+        </targetParams>
+        <soundCast>LiquidAcid</soundCast>
+        <soundCastTail>BubbleTea</soundCastTail>
+        <defaultProjectile>GrenadePoison</defaultProjectile>
+        <rangedFireRulepack>Combat_RangedFire_Thrown</rangedFireRulepack>
+        <requireLineOfSight>true</requireLineOfSight>
+        <onlyManualCast>true</onlyManualCast>
+      </li>
+    </verbs>
+  </ThingDef>
+  <ThingDef ParentName="BaseGrenadeProjectile">
+    <defName>GrenadePoison</defName>
+    <label>Polluted air</label>
+    <thingClass>Projectile_Explosive</thingClass>
+    <graphicData>
+      <texPath>Things/Projectile/Special/GrenadePoison</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <projectile>
+      <explosionRadius>7.5</explosionRadius>
+      <damageAmountBase>2</damageAmountBase>
+      <damageDef>GrenadePoisonIvy</damageDef>
+      <explosionDelay>1</explosionDelay>
+      <soundExplode>Explosion_Smoke</soundExplode>
+    </projectile>
+  </ThingDef>
+</Defs>

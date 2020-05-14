@@ -1,0 +1,170 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <!-- Killer Bunny -->
+  <ThingDef ParentName="AnimalThingBase">
+    <defName>KillerRabbit</defName>
+    <label>Killer Rabbit</label>
+    <!-- <race>Hare</race> -->
+    <description>This small, solitary herbivore can swiftly hop between its victims and cause a massacre if provoked.</description>
+    <statBases>
+      <MoveSpeed>12.0</MoveSpeed>
+      <MarketValue>250</MarketValue>
+      <ComfyTemperatureMin>-35</ComfyTemperatureMin>
+    </statBases>
+    <tools>
+      <li>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>3.4</power>
+        <cooldownTime>0.25</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+      </li>
+      <li>
+        <label>Deathjump</label>
+        <capacities>
+          <li>Blunt</li>
+        </capacities>
+        <power>4.5</power>
+        <cooldownTime>0.25</cooldownTime>
+        <linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.2</chanceFactor>
+      </li>
+      <li>
+        <label>Phantomdancer</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>5.7</power>
+        <cooldownTime>0.25</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <surpriseAttack>
+          <extraMeleeDamages>
+            <li>
+              <def>Stun</def>
+              <amount>5</amount>
+            </li>
+          </extraMeleeDamages>
+        </surpriseAttack>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+      <li>
+        <label>Decapitate</label>
+        <capacities>
+          <li>Bite</li>
+        </capacities>
+        <power>6.3</power>
+        <cooldownTime>0.25</cooldownTime>
+        <linkedBodyPartsGroup>Teeth</linkedBodyPartsGroup>
+        <ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+        <chanceFactor>0.1</chanceFactor>
+      </li>
+    </tools>
+    <race>
+      <body>QuadrupedAnimalWithPawsAndTail</body>
+      <petness>0.05</petness>
+      <!-- <predator>true</predator> -->
+      <canBePredatorPrey>false</canBePredatorPrey>
+      <baseBodySize>0.2</baseBodySize>
+      <baseHungerRate>0.25</baseHungerRate>
+      <baseHealthScale>0.8</baseHealthScale>
+      <foodType>VegetarianRoughAnimal, Kibble</foodType>
+      <leatherDef>Leather_Light</leatherDef>
+      <gestationPeriodDays>14</gestationPeriodDays>
+      <nameOnTameChance>0.75</nameOnTameChance>
+      <trainability>Advanced</trainability>
+      <wildness>0.95</wildness>
+      <nuzzleMtbHours>24</nuzzleMtbHours>
+      <manhunterOnTameFailChance>0.05</manhunterOnTameFailChance>
+      <manhunterOnDamageChance>0.25</manhunterOnDamageChance>
+      <wildBiomes>
+        <TemperateForest>0.01</TemperateForest>
+        <AridShrubland>0.01</AridShrubland>
+      </wildBiomes>
+      <litterSizeCurve>
+        <points>
+          <li>(1.0, 0)</li>
+          <li>(1.5, 1)</li>
+          <li>(2.0, 1)</li>
+          <li>(2.5, 0)</li>
+        </points>
+      </litterSizeCurve>
+      <lifeExpectancy>8</lifeExpectancy>
+      <lifeStageAges>
+        <li>
+          <def>AnimalBaby</def>
+          <minAge>0</minAge>
+        </li>
+        <li>
+          <def>AnimalJuvenile</def>
+          <minAge>0.18</minAge>
+        </li>
+        <li>
+          <def>AnimalAdult</def>
+          <minAge>0.5</minAge>
+          <soundWounded>Pawn_Hare_Wounded</soundWounded>
+          <soundDeath>Pawn_Hare_Death</soundDeath>
+          <soundCall>KillerBunnyAttack</soundCall>
+          <soundAngry>KillerBunnyGrowl</soundAngry>
+        </li>
+      </lifeStageAges>
+      <soundMeleeHitPawn>KillerBunnyBite</soundMeleeHitPawn>
+      <soundMeleeHitBuilding>Pawn_Melee_BigBash_HitBuilding</soundMeleeHitBuilding>
+      <soundMeleeMiss>Pawn_Melee_BigBash_Miss</soundMeleeMiss>
+    </race>
+    <tradeTags>
+      <li>AnimalExotic</li>
+    </tradeTags>
+  </ThingDef>
+  <PawnKindDef ParentName="AnimalKindBase">
+    <defName>KillerRabbit</defName>
+    <label>Killer Rabbit</label>
+    <race>KillerRabbit</race>
+    <combatPower>99</combatPower>
+    <ecoSystemWeight>0.27</ecoSystemWeight>
+    <wildGroupSize>
+      <min>4</min>
+      <max>7</max>
+    </wildGroupSize>
+    <lifeStages>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Hare</texPath>
+          <drawSize>1</drawSize>
+          <color>(159, 179, 179)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>1.5</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Hare</texPath>
+          <drawSize>1.25</drawSize>
+          <color>(162, 189, 189)</color>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>1.75</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+      <li>
+        <bodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Hare</texPath>
+          <drawSize>1.5</drawSize>
+          <color>(230,242,242)</color>
+          <shadowData>
+            <volume>(0.32, 0.35, 0.32)</volume>
+            <offset>(0,0,0)</offset>
+          </shadowData>
+        </bodyGraphicData>
+        <dessicatedBodyGraphicData>
+          <texPath>Things/Pawn/Animal/Hare/Dessicated_Hare</texPath>
+          <drawSize>2</drawSize>
+        </dessicatedBodyGraphicData>
+      </li>
+    </lifeStages>
+  </PawnKindDef>
+</Defs>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Killer Bunny -->
+
+  <KillerRabbit.label>Killer Rabbit</KillerRabbit.label>
+  <KillerRabbit.description>This small, solitary herbivore can swiftly hop between its victims and cause a massacre if provoked.</KillerRabbit.description>
+  <KillerRabbit.tools.1.label>Deathjump</KillerRabbit.tools.1.label>
+  <KillerRabbit.tools.2.label>Phantomdancer</KillerRabbit.tools.2.label>
+  <KillerRabbit.tools.3.label>Decapitate</KillerRabbit.tools.3.label>
+
+
+</LanguageData>
