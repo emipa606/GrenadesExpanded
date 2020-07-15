@@ -20,13 +20,6 @@ namespace GrenadesExpanded
 			base.GetSettings<GrenadesExpendedMod>();
 		}
 
-		// Token: 0x06000009 RID: 9 RVA: 0x000020F6 File Offset: 0x000002F6
-		public override void WriteSettings()
-		{
-			base.WriteSettings();
-			GrenadesExpendedMod.rabbitincident = GrenadesExpendedMod.rabbitincident;
-		}
-
 		// Token: 0x0600000A RID: 10 RVA: 0x0000210A File Offset: 0x0000030A
 		private void PushDatabase()
 		{
