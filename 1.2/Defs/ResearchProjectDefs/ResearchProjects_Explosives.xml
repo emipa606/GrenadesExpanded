@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Alchemy</defName>
+    <label>Alchemy</label>
+    <description>Gives the right to join the circle of druids in the nearby forest.</description>
+    <baseCost>700</baseCost>
+    <techLevel>Medieval</techLevel>
+    <prerequisites>
+      <li>PsychoidBrewing</li>
+      <li>DrugProduction</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Explosives_TNT</defName>
+    <label>TNT</label>
+    <description>Learns the chemical bonding to explosives like nitroglycerin.</description>
+    <baseCost>1600</baseCost>
+    <techLevel>Industrial</techLevel>
+    <prerequisites>
+      <li>Alchemy</li>
+      <li>Smithing</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+</Defs>

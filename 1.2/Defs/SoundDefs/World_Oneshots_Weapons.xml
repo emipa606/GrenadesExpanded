@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>Armageddon_AmbientDoom</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Detonator/AmbientDoom</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>15</min>
+          <max>50</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.114706</max>
+        </pitchRange>
+        <distRange>
+          <min>25</min>
+          <max>50</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Armageddon_Wave</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Detonator/Armageddon</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>7</min>
+          <max>9</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9311765</min>
+          <max>1.091765</max>
+        </pitchRange>
+        <distRange>
+          <min>20</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Armageddon_ExplosionDrop</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Detonator/ExplosionDrop</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>7</min>
+          <max>9</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8</min>
+          <max>1</max>
+        </pitchRange>
+        <distRange>
+          <min>50</min>
+          <max>100</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>Thermalblast</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Detonator/FreezingIce</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>7</min>
+          <max>9</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8</min>
+          <max>1</max>
+        </pitchRange>
+        <distRange>
+          <min>20</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>FragmentExplosion</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Detonator/ExplosionStrong</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>7</min>
+          <max>9</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.8</min>
+          <max>1</max>
+        </pitchRange>
+        <distRange>
+          <min>20</min>
+          <max>70</max>
+        </distRange>
+        <sustainLoop>True</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
