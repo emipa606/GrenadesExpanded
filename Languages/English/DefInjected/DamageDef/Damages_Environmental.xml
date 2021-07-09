@@ -1,46 +1,24 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Inferno cannon -->
-
   <InfernoBlaze.label>blaze</InfernoBlaze.label>
   <InfernoBlaze.deathMessage>{0} has burned to death in a fireball.</InfernoBlaze.deathMessage>
-
-
   <!-- Inferno grenade -->
-
   <InfernoBomb.label>inferno</InfernoBomb.label>
   <InfernoBomb.deathMessage>{0} has burned to death in an inferno.</InfernoBomb.deathMessage>
-
-
   <!-- Firecracker -->
-
   <FirecrackerBomb.label>microexplosion</FirecrackerBomb.label>
   <FirecrackerBomb.deathMessage>{0} was ripped apart in a microexplosion.</FirecrackerBomb.deathMessage>
-
-
   <!-- Dynamite -->
-
   <DynamiteStick.label>TNT explosion</DynamiteStick.label>
   <DynamiteStick.deathMessage>{0} has died in a TNT explosion.</DynamiteStick.deathMessage>
-
-
   <!-- Stielhandgranate -->
-
   <GrenadeStackHand.label>fireshards</GrenadeStackHand.label>
   <GrenadeStackHand.deathMessage>{0} has died in a nitroreaction explosion.</GrenadeStackHand.deathMessage>
-
-
   <!-- Thermal Detonator -->
-
   <Thermalblast.label>thermalblast</Thermalblast.label>
   <Thermalblast.deathMessage>{0} has succumbed to deepfrost.</Thermalblast.deathMessage>
-
-
   <!-- Army Frag -->
-
   <CaseFragmentation.label>fragmentation</CaseFragmentation.label>
   <CaseFragmentation.deathMessage>{0} has been pulverized.</CaseFragmentation.deathMessage>
-
-
 </LanguageData>

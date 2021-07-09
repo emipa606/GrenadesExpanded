@@ -1,8 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Killer Bunny -->
-
   <KillerRabbit.label>Killer Rabbit</KillerRabbit.label>
   <KillerRabbit.labelPlural>Killer Rabbits</KillerRabbit.labelPlural>
   <KillerRabbit.lifeStages.0.label>Killer Rabbit</KillerRabbit.lifeStages.0.label>
@@ -27,6 +25,4 @@
   <KillerRabbit.labelMalePlural>male Killer Rabbits</KillerRabbit.labelMalePlural>
   <KillerRabbit.labelFemale>female Killer Rabbit</KillerRabbit.labelFemale>
   <KillerRabbit.labelFemalePlural>female Killer Rabbits</KillerRabbit.labelFemalePlural>
-
-
 </LanguageData>

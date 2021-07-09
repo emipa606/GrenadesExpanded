@@ -1,36 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <LanguageData>
-
   <!-- Hornet Nest grenade -->
-
   <Weapon_HornetNest.label>Hornet Nest</Weapon_HornetNest.label>
   <Weapon_HornetNest.description>The close to hand hornet nest. They're already angry and willing to sting. Poison build up by too many hornet stings can lead to loss of consciousness and heart attacks.</Weapon_HornetNest.description>
-
   <GrenadeHornet_Nest.label>Flying hive</GrenadeHornet_Nest.label>
-
-
   <!-- Toxic Flask -->
-
   <Weapon_GrenadeToxic.label>Toxic Flask</Weapon_GrenadeToxic.label>
   <Weapon_GrenadeToxic.description>A very fragile flask filled with some brew of an alchemist. It whirls dreadful through the organism, until it reaches the brain cells. No one really knows, whats in, but the absurd effect, when its get shattered, speaks volumes.</Weapon_GrenadeToxic.description>
-
   <GrenadeToxic.label>Toxic gas</GrenadeToxic.label>
-
-
   <!-- Acid Missile -->
-
   <Weapon_GrenadeAcid.label>Acid bomb</Weapon_GrenadeAcid.label>
   <Weapon_GrenadeAcid.description>Throwing missile filled up with hyperreactive liquids right up to the brim. The outer shell conserves the inner fluids with a special protective plastic layer. On contact, the pressure, unloads on contact in a deadly cloud of volitile acid.\n\nThe belt is loaded with these babies.</Weapon_GrenadeAcid.description>
-
   <GrenadeAcid.label>Vacuum Acid</GrenadeAcid.label>
-
-
   <!-- Poison Grenade -->
-
   <Weapon_GrenadePoison.label>Poison Ivy</Weapon_GrenadePoison.label>
   <Weapon_GrenadePoison.description>Grenade that holds an huge amount of compressed gas inside. This very experimental version was originally processed by a mad scientist for bio warfare, somewhere in a secret military base asteroid (MBA).\n\nThere are illegible notes left behind: "Test record A51, Day 901, somewhere at the back of beyond. Zyklon E-V-E scored the best results of all substances. The gas has various cringe effects on body and mind, which end in loss of all body functions and motoric abilities. Especially the muscles don't appear to answer anymore, accompanied by uncontrollable shivering, the rate of the heart raises rapidly... until it stops beating. 1 minute and 55 seconds until time of death by test subject #201523. Boss will be happy."</Weapon_GrenadePoison.description>
-
   <GrenadePoison.label>Polluted air</GrenadePoison.label>
-
-
 </LanguageData>

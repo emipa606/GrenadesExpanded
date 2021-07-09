@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Grenades Expanded (Continued)</name>
   <packageId>Mlie.GrenadesExpanded</packageId>
@@ -8,62 +8,70 @@
     <li>1.0</li>
     <li>1.1</li>
     <li>1.2</li>
+    <li>1.3</li>
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>Update of Trunkens mod for RimWorld 1.1
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1741117080
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[h1]Original description[/h1]
+[hr][/hr]
+[b]Version 1.0:[/b] Release
+[b]Version 1.1:[/b] Added 3 more Grenades
+[b]Version 1.2:[/b] Added No Camera Shake on Explosions
+[b]Version 1.3:[/b] Added 5 more Grenades with unique effects and sounds
+[b]Version 1.4:[/b] Added Nuclear Bomb and Grenade Launcher
+[b]Version 1.5:[/b] Added 5 more Grenades, Eyecandy, Secret Incident + New Animal
 
-Support-chat:
-https://invite.gg/mlie
-
-Non-steam version:
-https://github.com/emipa606/GrenadesExpanded
-	
---- Original Description ---
-&lt;b&gt;&lt;color=#ff6c00&gt;Boom!&lt;/color&gt;&lt;/b&gt;
-
-Version 1.0: Release
-Version 1.1: Added 3 more Grenades
-Version 1.2: Added No Camera Shake on Explosions
-Version 1.3: Added 5 more Grenades with unique effects and sounds
-Version 1.4: Added Nuclear Bomb and Grenade Launcher
-Version 1.5: Added 5 more Grenades, Eyecandy, Secret Incident + New Animal
-
+[h1]Boom![/h1]
 This mod expands your arsenal on grenades for each tech stadium:
 
-- Holy Hand Grenade (Neolithic, Medieval Runthroughs, Exotic Traders, 1x use)
-- Hornet Nest (Neolithic, Crafting Spot, 6x6)
-- Toxic Flask (Medieval, Alchemy, 3x3)
-- Inferno Grenade (Medieval, Alchemy, Smithing, 9x9)
-- Dynamite (Industrial, TNT, 8x8)
-- Stick Grenade (Industrial, Fabrication, 4x4)
-- Acid Bomb (Industrial, GasOperation, 5x5)
-- Poison Ivy (Industrial, GasOperation, 6x6)
-- Army Grenade (Industrial, IEDS, 5x5)
-- Napalm Bomb (Industrial, IEDS, 6x6)
-- Firecracker (Space, Hightech Explosives, 1x1)
-- Thermal Detonator (Space, Advanced Fabrication, 7x7)
-- Electrocuter (Space, Microelectronics Basics, 5x5)
-- Death Container (Space, Cryptosleep, 8x8)
-- Disintegrator (Ultra, Cryptosleep, 3x3)
-- Plasma Grenade (Ultra, ShipReactor, 4x4)
-- Atomic Bomb (Ultra, Ship Reactor, 10x10)
-- Fireball Launcher (Ultra, Charged Shot, Special Reward)
+ - Holy Hand Grenade (Neolithic, Medieval Runthroughs, Exotic Traders, 1x use)
+ - Hornet Nest (Neolithic, Crafting Spot, 6x6)
+ - Toxic Flask (Medieval, Alchemy, 3x3)
+ - Inferno Grenade (Medieval, Alchemy, Smithing, 9x9)
+ - Dynamite (Industrial, TNT, 8x8)
+ - Stick Grenade (Industrial, Fabrication, 4x4)
+ - Acid Bomb (Industrial, GasOperation, 5x5) 
+ - Poison Ivy (Industrial, GasOperation, 6x6)
+ - Army Grenade (Industrial, IEDS, 5x5)
+ - Napalm Bomb (Industrial, IEDS, 6x6)
+ - Firecracker (Space, Hightech Explosives, 1x1)
+ - Thermal Detonator (Space, Advanced Fabrication, 7x7)
+ - Electrocuter (Space, Microelectronics Basics, 5x5)
+ - Death Container (Space, Cryptosleep, 8x8)
+ - Disintegrator (Ultra, Cryptosleep, 3x3)
+ - Plasma Grenade (Ultra, ShipReactor, 4x4)
+ - Atomic Bomb (Ultra, Ship Reactor, 10x10)
+ - Fireball Launcher (Ultra, Charged Shot, Special Reward)
+ 
+[b]Instructions:[/b]  [i]Aim at foes. Count to 3 before throwing. Don&apos;t drop it.[/i]
 
-Hidden Gem
+[img]https://i.ibb.co/VNMkQCV/Grenade-Armageddon.png[/img] [img]https://i.ibb.co/chzx7Ck/Grenade-Inferno.png[/img] [img]https://i.ibb.co/sWmmYF1/Grenade-Detonator.png[/img] [img]https://i.ibb.co/tb8WnJL/Grenade-Dynamite.png[/img] [img]https://i.ibb.co/CKP3y1c/Grenade-Stick.png[/img] [img]https://i.ibb.co/R0mtsSp/Grenade11-Firecracker.png[/img]    
+
+[h1]Update[/h1]
+
+[img]https://i.ibb.co/8PJrJRq/Grenade-Toxic.png[/img] [img]https://i.ibb.co/9Hb96Nk/Grenade-Poison.png[/img] [img]https://i.ibb.co/ydhyjp7/Proj-Grenade-Acid.png[/img] [img]https://i.ibb.co/CMbFWf1/Grenade-Nest.png[/img] [img]https://i.ibb.co/4KNd5Fd/Grenade-Stasis.png[/img] [img]https://i.ibb.co/VJnr2qt/Grenade-Atomic-Bomb.png[/img]
+
+[h1]Update #2[/h1]
+
+[img]https://i.ibb.co/7bq5F6W/Grenade-Death.png[/img] [img]https://i.ibb.co/RjRcWLV/Grenade-Napalm.png[/img] [img]https://i.ibb.co/S00S849/Grenade-Stasis.png[/img] [img]https://i.ibb.co/CVXfxFK/Grenade-Army.png[/img] [img]https://i.ibb.co/sm5BYzG/Grenade-Crumble.png[/img] [img]https://i.ibb.co/bWwLv3v/Fireball-Cannon.png[/img]
+
+Handle with care. Watch the video for specific details. Raiders won&apos;t wield those.
+
+[b]Hidden Gem[/b]
 The Killer Rabbit (New Animal + Incident)
 
-Supported Mods
-- RimBees (or) Misc. Bees'n'Honey (for hive crafting costs)
-- Grenades Expanded (activates with this load order)
+[h1]Supported Mods[/h1]
+ - RimBees (or) Misc. Bees&apos;n&apos;Honey (for hive crafting costs)
+ - Grenades Expanded (activates with this load order)
 
-Combat Extended
-I'm not using CE. You can pm me and make a patch. I'll help.
+[b]Combat Extended[/b]
+I&apos;m not using CE. You can pm me and make a patch. I&apos;ll help.
 
-Credits
+[h1]Credits[/h1]
 Assemblies NCS * by BadDog + sma342 + Mehni + Erdelf
 Acid Bomb Texture * an Early Oskar Potocki
 Support * by EvaineQ and Roolo
@@ -71,7 +79,17 @@ Idea and Clip * Monty Python
 
 Feedback, Ideas and Suggestions are welcome!
 
-Join us in Discord: https://discord.gg/sT4zdXt
+[b]Concepting:[/b] This mod will have at least 5 more Grenades in future.
 
-Concepting: This mod will have at least 5 more Grenades in future.</description>
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
