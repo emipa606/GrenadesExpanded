@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Grenades Expanded (Continued)</name>
   <packageId>Mlie.GrenadesExpanded</packageId>
@@ -12,12 +12,24 @@
   </supportedVersions>
   <modDependencies />
   <loadAfter />
-  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+  <description>[img]https://i.imgur.com/buuPQel.png[/img]
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1741117080
 
-[h1]Original description[/h1]
-[hr][/hr]
+[img]https://i.imgur.com/pufA0kM.png[/img]
+
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/GrenadesExpanded][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+    [/tr]
+    [tr]
+        [td][img]https://i.imgur.com/WjDSfUn.png[/img][/td]
+        [td][img]https://i.imgur.com/Be8E2qJ.png[/img][/td]
+    [/tr]
+[/table]
+	
+[img]https://i.imgur.com/Z4GOv8H.png[/img]
 [b]Version 1.0:[/b] Release
 [b]Version 1.1:[/b] Added 3 more Grenades
 [b]Version 1.2:[/b] Added No Camera Shake on Explosions
@@ -47,7 +59,7 @@ This mod expands your arsenal on grenades for each tech stadium:
  - Atomic Bomb (Ultra, Ship Reactor, 10x10)
  - Fireball Launcher (Ultra, Charged Shot, Special Reward)
  
-[b]Instructions:[/b]  [i]Aim at foes. Count to 3 before throwing. Don&apos;t drop it.[/i]
+[b]Instructions:[/b]  [i]Aim at foes. Count to 3 before throwing. Don't drop it.[/i]
 
 [img]https://i.ibb.co/VNMkQCV/Grenade-Armageddon.png[/img] [img]https://i.ibb.co/chzx7Ck/Grenade-Inferno.png[/img] [img]https://i.ibb.co/sWmmYF1/Grenade-Detonator.png[/img] [img]https://i.ibb.co/tb8WnJL/Grenade-Dynamite.png[/img] [img]https://i.ibb.co/CKP3y1c/Grenade-Stick.png[/img] [img]https://i.ibb.co/R0mtsSp/Grenade11-Firecracker.png[/img]    
 
@@ -59,17 +71,17 @@ This mod expands your arsenal on grenades for each tech stadium:
 
 [img]https://i.ibb.co/7bq5F6W/Grenade-Death.png[/img] [img]https://i.ibb.co/RjRcWLV/Grenade-Napalm.png[/img] [img]https://i.ibb.co/S00S849/Grenade-Stasis.png[/img] [img]https://i.ibb.co/CVXfxFK/Grenade-Army.png[/img] [img]https://i.ibb.co/sm5BYzG/Grenade-Crumble.png[/img] [img]https://i.ibb.co/bWwLv3v/Fireball-Cannon.png[/img]
 
-Handle with care. Watch the video for specific details. Raiders won&apos;t wield those.
+Handle with care. Watch the video for specific details. Raiders won't wield those.
 
 [b]Hidden Gem[/b]
 The Killer Rabbit (New Animal + Incident)
 
 [h1]Supported Mods[/h1]
- - RimBees (or) Misc. Bees&apos;n&apos;Honey (for hive crafting costs)
+ - RimBees (or) Misc. Bees'n'Honey (for hive crafting costs)
  - Grenades Expanded (activates with this load order)
 
 [b]Combat Extended[/b]
-I&apos;m not using CE. You can pm me and make a patch. I&apos;ll help.
+I'm not using CE. You can pm me and make a patch. I'll help.
 
 [h1]Credits[/h1]
 Assemblies NCS * by BadDog + sma342 + Mehni + Erdelf
@@ -81,7 +93,7 @@ Feedback, Ideas and Suggestions are welcome!
 
 [b]Concepting:[/b] This mod will have at least 5 more Grenades in future.
 
-[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[img]https://i.imgur.com/PwoNOj4.png[/img]
 [list]
 [*] See if the the error persists if you just have this mod and its requirements active.
 [*] If not, try adding your other mods until it happens again.
@@ -92,4 +104,3 @@ Feedback, Ideas and Suggestions are welcome!
 [/list]
 </description>
 </ModMetaData>
-
