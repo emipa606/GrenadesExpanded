@@ -1,9 +1,7 @@
-﻿using System;
+using System;
 
-namespace GrenadesExpanded
+namespace GrenadesExpanded;
+
+internal class CrazyRabbitIncidentDefOfAttribute : Attribute
 {
-    // Token: 0x02000002 RID: 2
-    internal class CrazyRabbitIncidentDefOfAttribute : Attribute
-    {
-    }
 }

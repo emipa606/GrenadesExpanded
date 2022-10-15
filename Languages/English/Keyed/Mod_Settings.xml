@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <GrEx.KillerRabbit.label>Killer Rabbit Incident</GrEx.KillerRabbit.label>
+  <GrEx.Enable.label>Enabled ?</GrEx.Enable.label>
+  <GrEx.Explanation.label>Use this to enable/disble the killer rabbit incident</GrEx.Explanation.label>
+  <GrEx.Version.label>Installed mod-version: {0}</GrEx.Version.label>
+</LanguageData>

@@ -1,55 +1,59 @@
-﻿using UnityEngine;
+using Mlie;
+using UnityEngine;
 using Verse;
 
-namespace GrenadesExpanded
+namespace GrenadesExpanded;
+
+internal class GrenadesExpendedSettings : Mod
 {
-    // Token: 0x02000005 RID: 5
-    internal class GrenadesExpendedSettings : Mod
+    private static string currentVersion;
+    private Vector2 scrollPosition = Vector2.zero;
+
+    private float scrollViewHeight = 0f;
+
+    public GrenadesExpendedSettings(ModContentPack mcp) : base(mcp)
     {
-        // Token: 0x04000004 RID: 4
-        private Vector2 scrollPosition = Vector2.zero;
+        LongEventHandler.ExecuteWhenFinished(GetSettings);
+        LongEventHandler.ExecuteWhenFinished(PushDatabase);
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(
+                ModLister.GetActiveModWithIdentifier("Mlie.GrenadesExpanded"));
+    }
 
-        // Token: 0x04000005 RID: 5
-        private float scrollViewHeight = 0f;
+    public void GetSettings()
+    {
+        base.GetSettings<GrenadesExpendedMod>();
+    }
 
-        // Token: 0x06000007 RID: 7 RVA: 0x0000209C File Offset: 0x0000029C
-        public GrenadesExpendedSettings(ModContentPack mcp) : base(mcp)
+    private void PushDatabase()
+    {
+        GrenadesExpendedMod.database = DefDatabase<ThingDef>.AllDefsListForReading;
+        WriteSettings();
+    }
+
+    public override string SettingsCategory()
+    {
+        return Static.GrenadesExpended;
+    }
+
+    public override void DoSettingsWindowContents(Rect rect)
+    {
+        var listing_Standard = new Listing_Standard();
+        listing_Standard.Begin(rect);
+        listing_Standard.Gap(15f);
+        var rect2 = listing_Standard.GetRect(Text.LineHeight);
+        Widgets.Label(rect2, "GrEx.KillerRabbit.label".Translate());
+        listing_Standard.Gap(10f);
+        listing_Standard.CheckboxLabeled("GrEx.Enable.label".Translate(), ref GrenadesExpendedMod.rabbitincident,
+            "GrEx.Explanation.label".Translate());
+        if (currentVersion != null)
         {
-            LongEventHandler.ExecuteWhenFinished(GetSettings);
-            LongEventHandler.ExecuteWhenFinished(PushDatabase);
+            listing_Standard.Gap();
+            GUI.contentColor = Color.gray;
+            listing_Standard.Label("GrEx.Version.label".Translate(currentVersion));
+            GUI.contentColor = Color.white;
         }
 
-        // Token: 0x06000008 RID: 8 RVA: 0x000020EC File Offset: 0x000002EC
-        public void GetSettings()
-        {
-            base.GetSettings<GrenadesExpendedMod>();
-        }
-
-        // Token: 0x0600000A RID: 10 RVA: 0x0000210A File Offset: 0x0000030A
-        private void PushDatabase()
-        {
-            GrenadesExpendedMod.database = DefDatabase<ThingDef>.AllDefsListForReading;
-            WriteSettings();
-        }
-
-        // Token: 0x0600000B RID: 11 RVA: 0x00002120 File Offset: 0x00000320
-        public override string SettingsCategory()
-        {
-            return Static.GrenadesExpended;
-        }
-
-        // Token: 0x0600000C RID: 12 RVA: 0x00002138 File Offset: 0x00000338
-        public override void DoSettingsWindowContents(Rect rect)
-        {
-            var listing_Standard = new Listing_Standard();
-            listing_Standard.Begin(rect);
-            listing_Standard.Gap(15f);
-            var rect2 = listing_Standard.GetRect(Text.LineHeight);
-            Widgets.Label(rect2, "Killer Rabbit Incident");
-            listing_Standard.Gap(10f);
-            listing_Standard.CheckboxLabeled("Enabled ?", ref GrenadesExpendedMod.rabbitincident,
-                "Use this to enable/disble the killer rabbit incident");
-            listing_Standard.End();
-        }
+        listing_Standard.End();
     }
 }

@@ -1,13 +1,15 @@
 # GrenadesExpanded
 
-![Image](https://i.imgur.com/WAEzk68.png)
+![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1741117080
 
-# Original description
+![Image](https://i.imgur.com/pufA0kM.png)
 
-[hr][/hr]
+	
+![Image](https://i.imgur.com/Z4GOv8H.png)
+
 **Version 1.0:** Release
 **Version 1.1:** Added 3 more Grenades
 **Version 1.2:** Added No Camera Shake on Explosions
@@ -38,7 +40,7 @@ This mod expands your arsenal on grenades for each tech stadium:
  - Atomic Bomb (Ultra, Ship Reactor, 10x10)
  - Fireball Launcher (Ultra, Charged Shot, Special Reward)
  
-**Instructions:**  *Aim at foes. Count to 3 before throwing. Don&apos;t drop it.*
+**Instructions:**  *Aim at foes. Count to 3 before throwing. Don't drop it.*
 
 ![Image](https://i.ibb.co/VNMkQCV/Grenade-Armageddon.png)
  ![Image](https://i.ibb.co/chzx7Ck/Grenade-Inferno.png)
@@ -70,18 +72,18 @@ This mod expands your arsenal on grenades for each tech stadium:
  ![Image](https://i.ibb.co/bWwLv3v/Fireball-Cannon.png)
 
 
-Handle with care. Watch the video for specific details. Raiders won&apos;t wield those.
+Handle with care. Watch the video for specific details. Raiders won't wield those.
 
 **Hidden Gem**
 The Killer Rabbit (New Animal + Incident)
 
 # Supported Mods
 
- - RimBees (or) Misc. Bees&apos;n&apos;Honey (for hive crafting costs)
+ - RimBees (or) Misc. Bees'n'Honey (for hive crafting costs)
  - Grenades Expanded (activates with this load order)
 
 **Combat Extended**
-I&apos;m not using CE. You can pm me and make a patch. I&apos;ll help.
+I'm not using CE. You can pm me and make a patch. I'll help.
 
 # Credits
 
@@ -94,7 +96,7 @@ Feedback, Ideas and Suggestions are welcome!
 
 **Concepting:** This mod will have at least 5 more Grenades in future.
 
-![Image](https://i.imgur.com/Rs6T6cr.png)
+![Image](https://i.imgur.com/PwoNOj4.png)
 
 
 
@@ -104,6 +106,7 @@ Feedback, Ideas and Suggestions are welcome!
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
+
 
 
 
