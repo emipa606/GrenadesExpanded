@@ -7,17 +7,13 @@ namespace GrenadesExpanded;
 internal class GrenadesExpendedSettings : Mod
 {
     private static string currentVersion;
-    private Vector2 scrollPosition = Vector2.zero;
-
-    private float scrollViewHeight = 0f;
 
     public GrenadesExpendedSettings(ModContentPack mcp) : base(mcp)
     {
         LongEventHandler.ExecuteWhenFinished(GetSettings);
         LongEventHandler.ExecuteWhenFinished(PushDatabase);
         currentVersion =
-            VersionFromManifest.GetVersionFromModMetaData(
-                ModLister.GetActiveModWithIdentifier("Mlie.GrenadesExpanded"));
+            VersionFromManifest.GetVersionFromModMetaData(mcp.ModMetaData);
     }
 
     public void GetSettings()

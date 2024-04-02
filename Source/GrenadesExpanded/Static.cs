@@ -2,5 +2,5 @@ namespace GrenadesExpanded;
 
 internal class Static
 {
-    public static string GrenadesExpended = "Grenades Expanded";
+    public static readonly string GrenadesExpended = "Grenades Expanded";
 }

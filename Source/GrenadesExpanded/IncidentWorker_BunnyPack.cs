@@ -21,7 +21,7 @@ public class IncidentWorker_BunnyPack : IncidentWorker
 
         var map = (Map)parms.target;
 
-        return ManhunterPackIncidentUtility.TryFindManhunterAnimalKind(parms.points, map.Tile, out _) &&
+        return AggressiveAnimalIncidentUtility.TryFindAggressiveAnimalKind(parms.points, map.Tile, out _) &&
                RCellFinder.TryFindRandomPawnEntryCell(out _, map, CellFinder.EdgeRoadChance_Animal);
     }
 
@@ -36,7 +36,7 @@ public class IncidentWorker_BunnyPack : IncidentWorker
         }
         else
         {
-            var list = ManhunterPackIncidentUtility.GenerateAnimals(named, map.Tile, parms.points * 1f);
+            var list = AggressiveAnimalIncidentUtility.GenerateAnimals(named, map.Tile, parms.points * 1f);
             var rot = Rot4.FromAngleFlat((map.Center - intVec).AngleFlat);
             foreach (var pawn in list)
             {

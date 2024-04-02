@@ -1,5 +1,6 @@
 using RimWorld;
 using Verse;
+using Verse.AI.Group;
 
 namespace GrenadesExpanded;
 
@@ -9,7 +10,7 @@ public class DeathActionWorker_KillerRabbit : DeathActionWorker
 
     public override bool DangerousInMelee => true;
 
-    public override void PawnDied(Corpse corpse)
+    public override void PawnDied(Corpse corpse, Lord prevLord)
     {
         int num;
         if (corpse.InnerPawn.ageTracker.CurLifeStageIndex == 0)
