@@ -1,9 +1,9 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
   <!-- ############## Shrapnel ############## -->
   <HediffDef ParentName="InjuryBase">
     <defName>Trunken_hediff_Shrapnels</defName>
-    <label>&lt;color=#c48b0e&gt;Shrapnel&lt;/color&gt;</label>
+    <label>&lt;color=#c48b0e>Shrapnel&lt;/color></label>
     <hediffClass>Hediff_Injury</hediffClass>
     <!-- HediffWithComps -->
     <defaultLabelColor>(0, 0.5, 0)</defaultLabelColor>
@@ -34,7 +34,7 @@
   <!-- ############## Venom ############## -->
   <HediffDef ParentName="InfectionBase">
     <defName>Trunken_hediff_Stings</defName>
-    <label>&lt;color=#0ff51a&gt;Hornet Venom&lt;/color&gt;</label>
+    <label>&lt;color=#0ff51a>Hornet Venom&lt;/color></label>
     <hediffClass>Hediff_Injury</hediffClass>
     <defaultLabelColor>(1, 1, 0)</defaultLabelColor>
     <minSeverity>0.05</minSeverity>
@@ -147,7 +147,7 @@
   <!-- ############## Toxic ############## -->
   <HediffDef ParentName="DiseaseBase">
     <defName>Trunken_hediff_ToxicBrew</defName>
-    <label>&lt;color=#07a60e&gt;Toxic Gas&lt;/color&gt;</label>
+    <label>&lt;color=#07a60e>Toxic Gas&lt;/color></label>
     <hediffClass>Hediff_Injury</hediffClass>
     <defaultLabelColor>(0, 1, 0)</defaultLabelColor>
     <makesSickThought>true</makesSickThought>
@@ -222,7 +222,7 @@
   <!-- ############## Acid ############## -->
   <HediffDef ParentName="DiseaseBase">
     <defName>Trunken_hediff_Chemicals</defName>
-    <label>&lt;color=#54bf11&gt;Acidburn&lt;/color&gt;</label>
+    <label>&lt;color=#54bf11>Acidburn&lt;/color></label>
     <hediffClass>Hediff_Injury</hediffClass>
     <defaultLabelColor>(0, 1, 0)</defaultLabelColor>
     <makesSickThought>true</makesSickThought>
@@ -357,7 +357,7 @@
   <!-- ############## Poison ############## -->
   <HediffDef ParentName="DiseaseBase">
     <defName>Trunken_hediff_Poison</defName>
-    <label>&lt;color=#11bf6b&gt;Poison&lt;/color&gt;</label>
+    <label>&lt;color=#11bf6b>Poison&lt;/color></label>
     <defaultLabelColor>(0, 1, 0)</defaultLabelColor>
     <makesAlert>false</makesAlert>
     <tendable>true</tendable>
@@ -412,7 +412,7 @@
   <!-- ############## Plasma ############## -->
   <HediffDef ParentName="InjuryBase">
     <defName>Trunken_hediff_Plasma</defName>
-    <label>&lt;color=#22a1b5&gt;Plasmabrand&lt;/color&gt;</label>
+    <label>&lt;color=#22a1b5>Plasmabrand&lt;/color></label>
     <hediffClass>Hediff_Injury</hediffClass>
     <!-- HediffWithComps -->
     <defaultLabelColor>(0, 0.5, 0)</defaultLabelColor>

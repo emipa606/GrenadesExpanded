@@ -1,12 +1,15 @@
-# GrenadesExpanded
+# [[Legacy] Grenades Expanded (Continued)](https://steamcommunity.com/sharedfiles/filedetails/?id=2096338681)
 
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Trunkens mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1741117080
 
-![Image](https://i.imgur.com/pufA0kM.png)
+**The release of RimWorld 1.6 added improved support for [Asset Bundles](https://github.com/emipa606/AssetBuilder/blob/main/README.md).**
+To avoid doubling the size of the mod, it was re-released using only Asset Bundles, you can find the new version of this mod [here](https://steamcommunity.com/sharedfiles/filedetails/?id=3533647573).
+This version will not receive any further updates.
 
+![Image](https://i.imgur.com/pufA0kM.png)
 	
 ![Image](https://i.imgur.com/Z4GOv8H.png)
 
@@ -42,35 +45,17 @@ This mod expands your arsenal on grenades for each tech stadium:
  
 **Instructions:**  *Aim at foes. Count to 3 before throwing. Don't drop it.*
 
-![Image](https://i.ibb.co/VNMkQCV/Grenade-Armageddon.png)
- ![Image](https://i.ibb.co/chzx7Ck/Grenade-Inferno.png)
- ![Image](https://i.ibb.co/sWmmYF1/Grenade-Detonator.png)
- ![Image](https://i.ibb.co/tb8WnJL/Grenade-Dynamite.png)
- ![Image](https://i.ibb.co/CKP3y1c/Grenade-Stick.png)
- ![Image](https://i.ibb.co/R0mtsSp/Grenade11-Firecracker.png)
-    
+![Image](https://i.ibb.co/VNMkQCV/Grenade-Armageddon.png) ![Image](https://i.ibb.co/chzx7Ck/Grenade-Inferno.png) ![Image](https://i.ibb.co/sWmmYF1/Grenade-Detonator.png) ![Image](https://i.ibb.co/tb8WnJL/Grenade-Dynamite.png) ![Image](https://i.ibb.co/CKP3y1c/Grenade-Stick.png) ![Image](https://i.ibb.co/R0mtsSp/Grenade11-Firecracker.png)    
 
 # Update
 
 
-![Image](https://i.ibb.co/8PJrJRq/Grenade-Toxic.png)
- ![Image](https://i.ibb.co/9Hb96Nk/Grenade-Poison.png)
- ![Image](https://i.ibb.co/ydhyjp7/Proj-Grenade-Acid.png)
- ![Image](https://i.ibb.co/CMbFWf1/Grenade-Nest.png)
- ![Image](https://i.ibb.co/4KNd5Fd/Grenade-Stasis.png)
- ![Image](https://i.ibb.co/VJnr2qt/Grenade-Atomic-Bomb.png)
-
+![Image](https://i.ibb.co/8PJrJRq/Grenade-Toxic.png) ![Image](https://i.ibb.co/9Hb96Nk/Grenade-Poison.png) ![Image](https://i.ibb.co/ydhyjp7/Proj-Grenade-Acid.png) ![Image](https://i.ibb.co/CMbFWf1/Grenade-Nest.png) ![Image](https://i.ibb.co/4KNd5Fd/Grenade-Stasis.png) ![Image](https://i.ibb.co/VJnr2qt/Grenade-Atomic-Bomb.png)
 
 # Update #2
 
 
-![Image](https://i.ibb.co/7bq5F6W/Grenade-Death.png)
- ![Image](https://i.ibb.co/RjRcWLV/Grenade-Napalm.png)
- ![Image](https://i.ibb.co/S00S849/Grenade-Stasis.png)
- ![Image](https://i.ibb.co/CVXfxFK/Grenade-Army.png)
- ![Image](https://i.ibb.co/sm5BYzG/Grenade-Crumble.png)
- ![Image](https://i.ibb.co/bWwLv3v/Fireball-Cannon.png)
-
+![Image](https://i.ibb.co/7bq5F6W/Grenade-Death.png) ![Image](https://i.ibb.co/RjRcWLV/Grenade-Napalm.png) ![Image](https://i.ibb.co/S00S849/Grenade-Stasis.png) ![Image](https://i.ibb.co/CVXfxFK/Grenade-Army.png) ![Image](https://i.ibb.co/sm5BYzG/Grenade-Crumble.png) ![Image](https://i.ibb.co/bWwLv3v/Fireball-Cannon.png)
 
 Handle with care. Watch the video for specific details. Raiders won't wield those.
 
@@ -102,13 +87,12 @@ Feedback, Ideas and Suggestions are welcome!
 
 -  See if the the error persists if you just have this mod and its requirements active.
 -  If not, try adding your other mods until it happens again.
--  Post your error-log using https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib or the standalone https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404]Uploader and command Ctrl+F12
+-  Post your error-log using the [Log Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) or the standalone [Uploader](https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404) and command Ctrl+F12
 -  For best support, please use the Discord-channel for error-reporting.
 -  Do not report errors by making a discussion-thread, I get no notification of that.
 -  If you have the solution for a problem, please post it to the GitHub repository.
--  Use https://github.com/RimSort/RimSort/releases/latest]RimSort to sort your mods
+-  Use [RimSort](https://github.com/RimSort/RimSort/releases/latest) to sort your mods
 
+ 
 
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2096338681]![Image](https://img.shields.io/github/v/release/emipa606/GrenadesExpanded?label=latest%20version&style=plastic&color=9f1111&labelColor=black)
-
+[![Image](https://img.shields.io/github/v/release/emipa606/GrenadesExpanded?label=latest%20version&style=plastic&color=9f1111&labelColor=black)](https://steamcommunity.com/sharedfiles/filedetails/changelog/2096338681)
