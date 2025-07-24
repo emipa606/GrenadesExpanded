@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: incendiary quantumbolt -->
+  <Bullet_FireballGrenadeLauncher.label>incendiary quantumbolt</Bullet_FireballGrenadeLauncher.label>
+  <!-- EN: Shrapnel -->
+  <GrenadeArmy.label>Shrapnel</GrenadeArmy.label>
+  <!-- EN: Deathcloud -->
+  <GrenadeDeath.label>Deathcloud</GrenadeDeath.label>
+  <!-- EN: disintegration bomb -->
+  <GrenadeDisintegrator.label>disintegration bomb</GrenadeDisintegrator.label>
+  <!-- EN: Inferno -->
+  <GrenadeNapalm.label>Inferno</GrenadeNapalm.label>
+  <!-- EN: Plasma -->
+  <GrenadePlasma.label>Plasma</GrenadePlasma.label>
+  <!-- EN: nuclear warhead -->
+  <GrenadeWarhead.label>nuclear warhead</GrenadeWarhead.label>
+  <!-- EN: Fireball Launcher -->
+  <Gun_FireballGrenadeLauncher.label>Fireball Launcher</Gun_FireballGrenadeLauncher.label>
+  <!-- EN: A wide-barreled multi launcher. The shells create heavy incendiary explosions on impact. The quickshot mechanism can burst out up to 5 grenades at once. A technical marvel and real beauty for any heavy gunner.\n\nLost Forsaken Tech. -->
+  <Gun_FireballGrenadeLauncher.description>A wide-barreled multi launcher. The shells create heavy incendiary explosions on impact. The quickshot mechanism can burst out up to 5 grenades at once. A technical marvel and real beauty for any heavy gunner.
+
+Lost Forsaken Tech.</Gun_FireballGrenadeLauncher.description>
+  <!-- EN: stock -->
+  <Gun_FireballGrenadeLauncher.tools.stock.label>stock</Gun_FireballGrenadeLauncher.tools.stock.label>
+  <!-- EN: barrel -->
+  <Gun_FireballGrenadeLauncher.tools.barrel.label>barrel</Gun_FireballGrenadeLauncher.tools.barrel.label>
+  <!-- EN: Fireball Launcher -->
+  <Gun_FireballGrenadeLauncher.verbs.Verb_Shoot.label>Fireball Launcher</Gun_FireballGrenadeLauncher.verbs.Verb_Shoot.label>
+  <!-- EN: Army grenade -->
+  <Weapon_GrenadeArmy.label>Army grenade</Weapon_GrenadeArmy.label>
+  <!-- EN: Adopted standard army design fragmentation grenade. It packs a special explosive device in a round housing for a vast detonation. Wide spreaded, pretty oldschool and easy to craft.\n\nThe belt is loaded with these basies. -->
+  <Weapon_GrenadeArmy.description>Adopted standard army design fragmentation grenade. It packs a special explosive device in a round housing for a vast detonation. Wide spreaded, pretty oldschool and easy to craft.
+
+The belt is loaded with these basies.</Weapon_GrenadeArmy.description>
+  <!-- EN: Army grenade -->
+  <Weapon_GrenadeArmy.verbs.Verb_LaunchProjectile.label>Army grenade</Weapon_GrenadeArmy.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Death container -->
+  <Weapon_GrenadeDeath.label>Death container</Weapon_GrenadeDeath.label>
+  <!-- EN: Grenade with a death cloud blasting composition. Space Marines call this 'Pandoras Box' in fear of its horrifying effect. In times before adoptive medical emergency modules (A3Ms) were integrated as military standard, this planetary havoc came above many humanoid as xenomorphic beings. Something is written in small letters underneath...\n\nCaution: Open at your own risk. Virus will outbreak of containment. -->
+  <Weapon_GrenadeDeath.description>Grenade with a death cloud blasting composition. Space Marines call this 'Pandoras Box' in fear of its horrifying effect. In times before adoptive medical emergency modules (A3Ms) were integrated as military standard, this planetary havoc came above many humanoid as xenomorphic beings. Something is written in small letters underneath...
+
+Caution: Open at your own risk. Virus will outbreak of containment.</Weapon_GrenadeDeath.description>
+  <!-- EN: Death container -->
+  <Weapon_GrenadeDeath.verbs.Verb_LaunchProjectile.label>Death container</Weapon_GrenadeDeath.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Disintegrator -->
+  <Weapon_GrenadeDisintegrator.label>Disintegrator</Weapon_GrenadeDisintegrator.label>
+  <!-- EN: Grenade with a disintegration blasting composition. Its blueprint underlies an ultratech assembling. Creates a small wave of pure destruction, while beeing liftable without additional servomotors for the grenadier.\n\nThe belt is loaded with these babies. -->
+  <Weapon_GrenadeDisintegrator.description>Grenade with a disintegration blasting composition. Its blueprint underlies an ultratech assembling. Creates a small wave of pure destruction, while beeing liftable without additional servomotors for the grenadier.
+
+The belt is loaded with these babies.</Weapon_GrenadeDisintegrator.description>
+  <!-- EN: Disintegrator -->
+  <Weapon_GrenadeDisintegrator.verbs.Verb_LaunchProjectile.label>Disintegrator</Weapon_GrenadeDisintegrator.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Napalm bomb -->
+  <Weapon_GrenadeNapalm.label>Napalm bomb</Weapon_GrenadeNapalm.label>
+  <!-- EN: Special grenade with a napalm blasting composition. A real firestarter due to is hydrophobic characteristics. Detonates in a huge wave of flames.\n\nAlias: The Rainmaker. -->
+  <Weapon_GrenadeNapalm.description>Special grenade with a napalm blasting composition. A real firestarter due to is hydrophobic characteristics. Detonates in a huge wave of flames.
+
+Alias: The Rainmaker.</Weapon_GrenadeNapalm.description>
+  <!-- EN: Napalm bomb -->
+  <Weapon_GrenadeNapalm.verbs.Verb_LaunchProjectile.label>Napalm bomb</Weapon_GrenadeNapalm.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Plasma grenade -->
+  <Weapon_GrenadePlasma.label>Plasma grenade</Weapon_GrenadePlasma.label>
+  <!-- EN: Grenade with a smolder blasting composition. Its ultratech blueprint originates from the nebula wars, when two whole universes fought each other. The detained plasma melts through any kind of armor, especially through such, which is sensible to high temperature fluctuations by particle mixtures on atomic-molecular level. Requires rare materials.\n\nThe belt is loaded with these babies. -->
+  <Weapon_GrenadePlasma.description>Grenade with a smolder blasting composition. Its ultratech blueprint originates from the nebula wars, when two whole universes fought each other. The detained plasma melts through any kind of armor, especially through such, which is sensible to high temperature fluctuations by particle mixtures on atomic-molecular level. Requires rare materials.
+
+The belt is loaded with these babies.</Weapon_GrenadePlasma.description>
+  <!-- EN: Plasma grenade -->
+  <Weapon_GrenadePlasma.verbs.Verb_LaunchProjectile.label>Plasma grenade</Weapon_GrenadePlasma.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Atomic Bomb -->
+  <Weapon_GrenadeWarhead.label>Atomic Bomb</Weapon_GrenadeWarhead.label>
+  <!-- EN: Grenade with an ultra-tech warhead powered by a grain of evaine antimatter. Usually used by forsaken grenadiers and war machines, it creates a huge explosion and starts fires around the detonation point.\n\nFragile and dangerous. Handle with care. -->
+  <Weapon_GrenadeWarhead.description>Grenade with an ultra-tech warhead powered by a grain of evaine antimatter. Usually used by forsaken grenadiers and war machines, it creates a huge explosion and starts fires around the detonation point.
+
+Fragile and dangerous. Handle with care.</Weapon_GrenadeWarhead.description>
+  <!-- EN: Atomic Bomb -->
+  <Weapon_GrenadeWarhead.verbs.Verb_LaunchProjectile.label>Atomic Bomb</Weapon_GrenadeWarhead.verbs.Verb_LaunchProjectile.label>
+</LanguageData>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: fragmentation -->
+  <CaseFragmentation.label>fragmentation</CaseFragmentation.label>
+  <!-- EN: {0} has been pulverized. -->
+  <CaseFragmentation.deathMessage>{0} has been pulverized.</CaseFragmentation.deathMessage>
+  <!-- EN: TNT explosion -->
+  <DynamiteStick.label>TNT explosion</DynamiteStick.label>
+  <!-- EN: {0} has died in a TNT explosion. -->
+  <DynamiteStick.deathMessage>{0} has died in a TNT explosion.</DynamiteStick.deathMessage>
+  <!-- EN: microexplosion -->
+  <FirecrackerBomb.label>microexplosion</FirecrackerBomb.label>
+  <!-- EN: {0} was ripped apart in a microexplosion. -->
+  <FirecrackerBomb.deathMessage>{0} was ripped apart in a microexplosion.</FirecrackerBomb.deathMessage>
+  <!-- EN: fireshards -->
+  <GrenadeStackHand.label>fireshards</GrenadeStackHand.label>
+  <!-- EN: {0} has died in a nitroreaction explosion. -->
+  <GrenadeStackHand.deathMessage>{0} has died in a nitroreaction explosion.</GrenadeStackHand.deathMessage>
+  <!-- EN: blaze -->
+  <InfernoBlaze.label>blaze</InfernoBlaze.label>
+  <!-- EN: {0} has burned to death in a fireball. -->
+  <InfernoBlaze.deathMessage>{0} has burned to death in a fireball.</InfernoBlaze.deathMessage>
+  <!-- EN: inferno -->
+  <InfernoBomb.label>inferno</InfernoBomb.label>
+  <!-- EN: {0} has burned to death in an inferno. -->
+  <InfernoBomb.deathMessage>{0} has burned to death in an inferno.</InfernoBomb.deathMessage>
+  <!-- EN: thermalblast -->
+  <Thermalblast.label>thermalblast</Thermalblast.label>
+  <!-- EN: {0} has succumbed to deepfrost. -->
+  <Thermalblast.deathMessage>{0} has succumbed to deepfrost.</Thermalblast.deathMessage>
+</LanguageData>

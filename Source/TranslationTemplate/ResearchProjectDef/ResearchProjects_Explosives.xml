@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Alchemy -->
+  <Alchemy.label>Alchemy</Alchemy.label>
+  <!-- EN: Gives the right to join the circle of druids in the nearby forest. -->
+  <Alchemy.description>Gives the right to join the circle of druids in the nearby forest.</Alchemy.description>
+  <!-- EN: TNT -->
+  <Explosives_TNT.label>TNT</Explosives_TNT.label>
+  <!-- EN: Learns the chemical bonding to explosives like nitroglycerin. -->
+  <Explosives_TNT.description>Learns the chemical bonding to explosives like nitroglycerin.</Explosives_TNT.description>
+</LanguageData>

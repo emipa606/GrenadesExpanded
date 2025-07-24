@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Killer Rabbit -->
+  <KillerRabbit.label>Killer Rabbit</KillerRabbit.label>
+  <!-- EN: This small, solitary herbivore can swiftly hop between its victims and cause a massacre if provoked. -->
+  <KillerRabbit.description>This small, solitary herbivore can swiftly hop between its victims and cause a massacre if provoked.</KillerRabbit.description>
+  <!-- EN: Deathjump -->
+  <KillerRabbit.tools.Deathjump.label>Deathjump</KillerRabbit.tools.Deathjump.label>
+  <!-- EN: Phantomdancer -->
+  <KillerRabbit.tools.Phantomdancer.label>Phantomdancer</KillerRabbit.tools.Phantomdancer.label>
+  <!-- EN: Decapitate -->
+  <KillerRabbit.tools.Decapitate.label>Decapitate</KillerRabbit.tools.Decapitate.label>
+</LanguageData>

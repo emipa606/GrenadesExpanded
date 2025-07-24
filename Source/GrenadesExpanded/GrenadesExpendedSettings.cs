@@ -10,18 +10,18 @@ internal class GrenadesExpendedSettings : Mod
 
     public GrenadesExpendedSettings(ModContentPack mcp) : base(mcp)
     {
-        LongEventHandler.ExecuteWhenFinished(GetSettings);
-        LongEventHandler.ExecuteWhenFinished(PushDatabase);
+        LongEventHandler.ExecuteWhenFinished(getSettings);
+        LongEventHandler.ExecuteWhenFinished(pushDatabase);
         currentVersion =
             VersionFromManifest.GetVersionFromModMetaData(mcp.ModMetaData);
     }
 
-    public void GetSettings()
+    private void getSettings()
     {
-        base.GetSettings<GrenadesExpendedMod>();
+        GetSettings<GrenadesExpendedMod>();
     }
 
-    private void PushDatabase()
+    private void pushDatabase()
     {
         GrenadesExpendedMod.database = DefDatabase<ThingDef>.AllDefsListForReading;
         WriteSettings();
@@ -34,22 +34,22 @@ internal class GrenadesExpendedSettings : Mod
 
     public override void DoSettingsWindowContents(Rect rect)
     {
-        var listing_Standard = new Listing_Standard();
-        listing_Standard.Begin(rect);
-        listing_Standard.Gap(15f);
-        var rect2 = listing_Standard.GetRect(Text.LineHeight);
+        var listingStandard = new Listing_Standard();
+        listingStandard.Begin(rect);
+        listingStandard.Gap(15f);
+        var rect2 = listingStandard.GetRect(Text.LineHeight);
         Widgets.Label(rect2, "GrEx.KillerRabbit.label".Translate());
-        listing_Standard.Gap(10f);
-        listing_Standard.CheckboxLabeled("GrEx.Enable.label".Translate(), ref GrenadesExpendedMod.rabbitincident,
+        listingStandard.Gap(10f);
+        listingStandard.CheckboxLabeled("GrEx.Enable.label".Translate(), ref GrenadesExpendedMod.rabbitincident,
             "GrEx.Explanation.label".Translate());
         if (currentVersion != null)
         {
-            listing_Standard.Gap();
+            listingStandard.Gap();
             GUI.contentColor = Color.gray;
-            listing_Standard.Label("GrEx.Version.label".Translate(currentVersion));
+            listingStandard.Label("GrEx.Version.label".Translate(currentVersion));
             GUI.contentColor = Color.white;
         }
 
-        listing_Standard.End();
+        listingStandard.End();
     }
 }

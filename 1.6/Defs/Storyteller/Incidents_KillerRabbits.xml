@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <IncidentDef>
+    <defName>CrazyRabbitIncident</defName>
+    <label>Killer rabbits gone crazy!</label>
+    <category>ThreatBig</category>
+    <targetTags>
+      <li>Map_PlayerHome</li>
+    </targetTags>
+    <workerClass>GrenadesExpanded.IncidentWorker_BunnyPack</workerClass>
+    <baseChance>2.0</baseChance>
+    <minRefireDays>60</minRefireDays>
+    <pointsScaleable>true</pointsScaleable>
+    <tale>ManhunterPack</tale>
+  </IncidentDef>
+</Defs>

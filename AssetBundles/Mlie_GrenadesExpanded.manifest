@@ -1,0 +1,75 @@
+ManifestFileVersion: 0
+CRC: 264631844
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: d33ccc330b4b1e1bea28ef540bb10570
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: d33ccc330b4b1e1bea28ef540bb10570
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/FreezingIce.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/GlassBreaking.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeNest.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Animals/AnimalGrowl.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeCrumble.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeDetonator.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/AmbientDoom.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeDynamite.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadePoison.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/RunningFire.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeArmageddon.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeFirecracker/GrenadeFirecrackerC.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeNapalm.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeNapalm.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Weapons/Fireball_Cannon.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeFirecracker/GrenadeFirecrackerA.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/CaseBreach.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeHornets/Proj_GrenadeHornetsC.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/ExplosionShatter.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/Armageddon.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/Hornets_Screencrash.mp3
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeAcid.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeStasis.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadePlasma.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Shots/InfernoCannonFireball.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeAcid.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeAtomicBomb.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeDeath.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeStasis.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/AcidSlime.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/OpenBottle.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/Hornets_AttackSingle.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeHornets/Proj_GrenadeHornetsA.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/MatchStick.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeArmy.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/AcidBubbles.wav
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/ExplosionStrong.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadePlasma.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeHornets/Proj_GrenadeHornetsB.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Animals/AnimalBite.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeInferno.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeSmall.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeStick.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeDynamite.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Animals/AnimalKiller.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeFirecracker/GrenadeFirecrackerB.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/Hornets_ExplosionHive.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeArmy.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeCrumble.png
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/ExplosionDrop.mp3
+- Assets/Data/Mlie.GrenadesExpanded/Sounds/Detonator/Hornets_Bzzzzz.wav
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeInferno.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/Proj_GrenadeDeath.png
+- Assets/Data/Mlie.GrenadesExpanded/Textures/Things/Projectile/Special/GrenadeToxic.png
+Dependencies: []

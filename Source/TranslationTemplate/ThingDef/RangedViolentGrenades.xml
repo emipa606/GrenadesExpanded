@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: Vacuum Acid -->
+  <GrenadeAcid.label>Vacuum Acid</GrenadeAcid.label>
+  <!-- EN: Flying hive -->
+  <GrenadeHornet_Nest.label>Flying hive</GrenadeHornet_Nest.label>
+  <!-- EN: Polluted air -->
+  <GrenadePoison.label>Polluted air</GrenadePoison.label>
+  <!-- EN: Toxic gas -->
+  <GrenadeToxic.label>Toxic gas</GrenadeToxic.label>
+  <!-- EN: Acid bomb -->
+  <Weapon_GrenadeAcid.label>Acid bomb</Weapon_GrenadeAcid.label>
+  <!-- EN: Throwing missile filled up with hyperreactive liquids right up to the brim. The outer shell conserves the inner fluids with a special protective plastic layer. On contact, the pressure, unloads on contact in a deadly cloud of volitile acid.\n\nThe belt is loaded with these babies. -->
+  <Weapon_GrenadeAcid.description>Throwing missile filled up with hyperreactive liquids right up to the brim. The outer shell conserves the inner fluids with a special protective plastic layer. On contact, the pressure, unloads on contact in a deadly cloud of volitile acid.
+
+The belt is loaded with these babies.</Weapon_GrenadeAcid.description>
+  <!-- EN: Acid bomb -->
+  <Weapon_GrenadeAcid.verbs.Verb_LaunchProjectile.label>Acid bomb</Weapon_GrenadeAcid.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Poison Ivy -->
+  <Weapon_GrenadePoison.label>Poison Ivy</Weapon_GrenadePoison.label>
+  <!-- EN: Grenade that holds an huge amount of compressed gas inside. This very experimental version was originally processed by a mad scientist for bio warfare, somewhere in a secret military base asteroid (MBA).\n\nThere are illegible notes left behind: "Test record A51, Day 901, somewhere at the back of beyond. Zyklon E-V-E scored the best results of all substances. The gas has various cringe effects on body and mind, which end in loss of all body functions and motoric abilities. Especially the muscles don't appear to answer anymore, accompanied by uncontrollable shivering, the rate of the heart raises rapidly... until it stops beating. 1 minute and 55 seconds until time of death by test subject #201523. Boss will be happy." -->
+  <Weapon_GrenadePoison.description>Grenade that holds an huge amount of compressed gas inside. This very experimental version was originally processed by a mad scientist for bio warfare, somewhere in a secret military base asteroid (MBA).
+
+There are illegible notes left behind: "Test record A51, Day 901, somewhere at the back of beyond. Zyklon E-V-E scored the best results of all substances. The gas has various cringe effects on body and mind, which end in loss of all body functions and motoric abilities. Especially the muscles don't appear to answer anymore, accompanied by uncontrollable shivering, the rate of the heart raises rapidly... until it stops beating. 1 minute and 55 seconds until time of death by test subject #201523. Boss will be happy."</Weapon_GrenadePoison.description>
+  <!-- EN: Poison Ivy -->
+  <Weapon_GrenadePoison.verbs.Verb_LaunchProjectile.label>Poison Ivy</Weapon_GrenadePoison.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Toxic Flask -->
+  <Weapon_GrenadeToxic.label>Toxic Flask</Weapon_GrenadeToxic.label>
+  <!-- EN: A very fragile flask filled with some brew of an alchemist. It whirls dreadful through the organism, until it reaches the brain cells. No one really knows, whats in, but the absurd effect, when its get shattered, speaks volumes. -->
+  <Weapon_GrenadeToxic.description>A very fragile flask filled with some brew of an alchemist. It whirls dreadful through the organism, until it reaches the brain cells. No one really knows, whats in, but the absurd effect, when its get shattered, speaks volumes.</Weapon_GrenadeToxic.description>
+  <!-- EN: Toxic Flask -->
+  <Weapon_GrenadeToxic.verbs.Verb_LaunchProjectile.label>Toxic Flask</Weapon_GrenadeToxic.verbs.Verb_LaunchProjectile.label>
+  <!-- EN: Hornet Nest -->
+  <Weapon_HornetNest.label>Hornet Nest</Weapon_HornetNest.label>
+  <!-- EN: The close to hand hornet nest. They're already angry and willing to sting. Poison build up by too many hornet stings can lead to loss of consciousness and heart attacks. -->
+  <Weapon_HornetNest.description>The close to hand hornet nest. They're already angry and willing to sting. Poison build up by too many hornet stings can lead to loss of consciousness and heart attacks.</Weapon_HornetNest.description>
+  <!-- EN: Hornet Nest -->
+  <Weapon_HornetNest.verbs.Verb_LaunchProjectile.label>Hornet Nest</Weapon_HornetNest.verbs.Verb_LaunchProjectile.label>
+</LanguageData>

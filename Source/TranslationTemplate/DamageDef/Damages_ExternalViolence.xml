@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: death cloud -->
+  <DeathCloud.label>death cloud</DeathCloud.label>
+  <!-- EN: {0} was killed by sickness. -->
+  <DeathCloud.deathMessage>{0} was killed by sickness.</DeathCloud.deathMessage>
+  <!-- EN: disintegration wave -->
+  <DisintegrationWave.label>disintegration wave</DisintegrationWave.label>
+  <!-- EN: {0} was killed by homing flames. -->
+  <DisintegrationWave.deathMessage>{0} was killed by homing flames.</DisintegrationWave.deathMessage>
+  <!-- EN: acid splash -->
+  <GrenadeAcidBomb.label>acid splash</GrenadeAcidBomb.label>
+  <!-- EN: {0} has given in to acid. -->
+  <GrenadeAcidBomb.deathMessage>{0} has given in to acid.</GrenadeAcidBomb.deathMessage>
+  <!-- EN: poisonous substance -->
+  <GrenadePoisonIvy.label>poisonous substance</GrenadePoisonIvy.label>
+  <!-- EN: {0} has died in an explosion. -->
+  <GrenadePoisonIvy.deathMessage>{0} has died in an explosion.</GrenadePoisonIvy.deathMessage>
+  <!-- EN: hornet stings -->
+  <HornetVenom.label>hornet stings</HornetVenom.label>
+  <!-- EN: {0} died to venom. -->
+  <HornetVenom.deathMessage>{0} died to venom.</HornetVenom.deathMessage>
+  <!-- EN: plasma wave -->
+  <PlasmaWave.label>plasma wave</PlasmaWave.label>
+  <!-- EN: {0} has been evaporated with plasma. -->
+  <PlasmaWave.deathMessage>{0} has been evaporated with plasma.</PlasmaWave.deathMessage>
+  <!-- EN: toxic gas -->
+  <ToxicGasCloud.label>toxic gas</ToxicGasCloud.label>
+  <!-- EN: {0} was killed by toxicity. -->
+  <ToxicGasCloud.deathMessage>{0} was killed by toxicity.</ToxicGasCloud.deathMessage>
+</LanguageData>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ThingDef[@Name="BaseHare"]/race</xpath>
+    <value>
+      <deathAction>
+        <workerClass>GrenadesExpanded.DeathActionWorker_KillerRabbit</workerClass>
+      </deathAction>
+    </value>
+  </Operation>
+</Patch>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- EN: <color=#54bf11>Acidburn</color> -->
+  <Trunken_hediff_Chemicals.label>&lt;color=#54bf11>Acidburn&lt;/color></Trunken_hediff_Chemicals.label>
+  <!-- EN: Acidburn -->
+  <Trunken_hediff_Chemicals.description>Acidburn</Trunken_hediff_Chemicals.description>
+  <!-- EN: burn scar -->
+  <Trunken_hediff_Chemicals.comps.HediffComp_GetsPermanent.permanentLabel>burn scar</Trunken_hediff_Chemicals.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Seared off -->
+  <Trunken_hediff_Chemicals.injuryProps.destroyedLabel>Seared off</Trunken_hediff_Chemicals.injuryProps.destroyedLabel>
+  <!-- EN: Seared out -->
+  <Trunken_hediff_Chemicals.injuryProps.destroyedOutLabel>Seared out</Trunken_hediff_Chemicals.injuryProps.destroyedOutLabel>
+  <!-- EN: initial -->
+  <Trunken_hediff_Chemicals.stages.initial.label>initial</Trunken_hediff_Chemicals.stages.initial.label>
+  <!-- EN: minor -->
+  <Trunken_hediff_Chemicals.stages.minor.label>minor</Trunken_hediff_Chemicals.stages.minor.label>
+  <!-- EN: moderate -->
+  <Trunken_hediff_Chemicals.stages.moderate.label>moderate</Trunken_hediff_Chemicals.stages.moderate.label>
+  <!-- EN: serious -->
+  <Trunken_hediff_Chemicals.stages.serious.label>serious</Trunken_hediff_Chemicals.stages.serious.label>
+  <!-- EN: extreme -->
+  <Trunken_hediff_Chemicals.stages.extreme.label>extreme</Trunken_hediff_Chemicals.stages.extreme.label>
+  <!-- EN: <color=#22a1b5>Plasmabrand</color> -->
+  <Trunken_hediff_Plasma.label>&lt;color=#22a1b5>Plasmabrand&lt;/color></Trunken_hediff_Plasma.label>
+  <!-- EN: Plasmabrand -->
+  <Trunken_hediff_Plasma.description>Plasmabrand</Trunken_hediff_Plasma.description>
+  <!-- EN: brand scar -->
+  <Trunken_hediff_Plasma.comps.HediffComp_GetsPermanent.permanentLabel>brand scar</Trunken_hediff_Plasma.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Trunken_hediff_Plasma.injuryProps.destroyedLabel>Cut off</Trunken_hediff_Plasma.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Trunken_hediff_Plasma.injuryProps.destroyedOutLabel>Cut out</Trunken_hediff_Plasma.injuryProps.destroyedOutLabel>
+  <!-- EN: {0} in the {1} -->
+  <Trunken_hediff_Plasma.labelNounPretty>{0} in the {1}</Trunken_hediff_Plasma.labelNounPretty>
+  <!-- EN: <color=#11bf6b>Poison</color> -->
+  <Trunken_hediff_Poison.label>&lt;color=#11bf6b>Poison&lt;/color></Trunken_hediff_Poison.label>
+  <!-- EN: Poison -->
+  <Trunken_hediff_Poison.description>Poison</Trunken_hediff_Poison.description>
+  <!-- EN: <color=#c48b0e>Shrapnel</color> -->
+  <Trunken_hediff_Shrapnels.label>&lt;color=#c48b0e>Shrapnel&lt;/color></Trunken_hediff_Shrapnels.label>
+  <!-- EN: Shrapnel -->
+  <Trunken_hediff_Shrapnels.description>Shrapnel</Trunken_hediff_Shrapnels.description>
+  <!-- EN: shrapnel scar -->
+  <Trunken_hediff_Shrapnels.comps.HediffComp_GetsPermanent.permanentLabel>shrapnel scar</Trunken_hediff_Shrapnels.comps.HediffComp_GetsPermanent.permanentLabel>
+  <!-- EN: Cut off -->
+  <Trunken_hediff_Shrapnels.injuryProps.destroyedLabel>Cut off</Trunken_hediff_Shrapnels.injuryProps.destroyedLabel>
+  <!-- EN: Cut out -->
+  <Trunken_hediff_Shrapnels.injuryProps.destroyedOutLabel>Cut out</Trunken_hediff_Shrapnels.injuryProps.destroyedOutLabel>
+  <!-- EN: a shrapnel wound -->
+  <Trunken_hediff_Shrapnels.labelNoun>a shrapnel wound</Trunken_hediff_Shrapnels.labelNoun>
+  <!-- EN: {0} in the {1} -->
+  <Trunken_hediff_Shrapnels.labelNounPretty>{0} in the {1}</Trunken_hediff_Shrapnels.labelNounPretty>
+  <!-- EN: <color=#0ff51a>Hornet Venom</color> -->
+  <Trunken_hediff_Stings.label>&lt;color=#0ff51a>Hornet Venom&lt;/color></Trunken_hediff_Stings.label>
+  <!-- EN: Hornet Venom -->
+  <Trunken_hediff_Stings.description>Hornet Venom</Trunken_hediff_Stings.description>
+  <!-- EN: Died off -->
+  <Trunken_hediff_Stings.injuryProps.destroyedLabel>Died off</Trunken_hediff_Stings.injuryProps.destroyedLabel>
+  <!-- EN: Died out -->
+  <Trunken_hediff_Stings.injuryProps.destroyedOutLabel>Died out</Trunken_hediff_Stings.injuryProps.destroyedOutLabel>
+  <!-- EN: initial -->
+  <Trunken_hediff_Stings.stages.initial.label>initial</Trunken_hediff_Stings.stages.initial.label>
+  <!-- EN: minor -->
+  <Trunken_hediff_Stings.stages.minor.label>minor</Trunken_hediff_Stings.stages.minor.label>
+  <!-- EN: moderate -->
+  <Trunken_hediff_Stings.stages.moderate.label>moderate</Trunken_hediff_Stings.stages.moderate.label>
+  <!-- EN: serious -->
+  <Trunken_hediff_Stings.stages.serious.label>serious</Trunken_hediff_Stings.stages.serious.label>
+  <!-- EN: extreme -->
+  <Trunken_hediff_Stings.stages.extreme.label>extreme</Trunken_hediff_Stings.stages.extreme.label>
+  <!-- EN: <color=#07a60e>Toxic Gas</color> -->
+  <Trunken_hediff_ToxicBrew.label>&lt;color=#07a60e>Toxic Gas&lt;/color></Trunken_hediff_ToxicBrew.label>
+  <!-- EN: Toxic Gas -->
+  <Trunken_hediff_ToxicBrew.description>Toxic Gas</Trunken_hediff_ToxicBrew.description>
+  <!-- EN: Seared off -->
+  <Trunken_hediff_ToxicBrew.injuryProps.destroyedLabel>Seared off</Trunken_hediff_ToxicBrew.injuryProps.destroyedLabel>
+  <!-- EN: Seared out -->
+  <Trunken_hediff_ToxicBrew.injuryProps.destroyedOutLabel>Seared out</Trunken_hediff_ToxicBrew.injuryProps.destroyedOutLabel>
+</LanguageData>
