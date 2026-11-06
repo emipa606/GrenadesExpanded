@@ -32,10 +32,10 @@ internal class GrenadesExpendedSettings : Mod
         return Static.GrenadesExpended;
     }
 
-    public override void DoSettingsWindowContents(Rect rect)
+    public override void DoSettingsWindowContents(Rect inRect)
     {
         var listingStandard = new Listing_Standard();
-        listingStandard.Begin(rect);
+        listingStandard.Begin(inRect);
         listingStandard.Gap(15f);
         var rect2 = listingStandard.GetRect(Text.LineHeight);
         Widgets.Label(rect2, "GrEx.KillerRabbit.label".Translate());

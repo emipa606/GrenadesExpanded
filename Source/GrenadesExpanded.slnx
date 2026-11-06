@@ -7,4 +7,38 @@
   </Configurations>
   <Project Path="DamagerWorker_BombNoCamShake/DamagerWorker_BombNoCamShake.csproj" />
   <Project Path="GrenadesExpanded/GrenadesExpanded.csproj" />
+  <Folder Name="/XML/About/">
+    <File Path="../About/about.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ThingDefs/">
+    <File Path="../1.7/Defs/ThingDefs/RacesAnimalHares.xml" />
+    <File Path="../1.7/Defs/ThingDefs/RangedDestructiveGrenades.xml" />
+    <File Path="../1.7/Defs/ThingDefs/RangedIndustrialWeapons.xml" />
+    <File Path="../1.7/Defs/ThingDefs/RangedViolentGrenades.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Patches/">
+    <File Path="../1.7/Patches/KillerBunny.xml" />
+    <File Path="../1.7/Patches/RimBees.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/SoundDefs/">
+    <File Path="../1.7/Defs/SoundDefs/Animals_Ambience.xml" />
+    <File Path="../1.7/Defs/SoundDefs/World_Bombardment.xml" />
+    <File Path="../1.7/Defs/SoundDefs/World_Oneshots_Weapons.xml" />
+  </Folder>
+  <Folder Name="/XML/Languages/English/Keyed/">
+    <File Path="../Languages/English/Keyed/Mod_Settings.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Storyteller/">
+    <File Path="../1.7/Defs/Storyteller/Incidents_KillerRabbits.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/Hediffs/">
+    <File Path="../1.7/Defs/Hediffs/Grenade_hediffs.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/ResearchProjectDefs/">
+    <File Path="../1.7/Defs/ResearchProjectDefs/ResearchProjects_Explosives.xml" />
+  </Folder>
+  <Folder Name="/XML/1.7/Defs/DamageDefs/">
+    <File Path="../1.7/Defs/DamageDefs/Damages_Environmental.xml" />
+    <File Path="../1.7/Defs/DamageDefs/Damages_ExternalViolence.xml" />
+  </Folder>
 </Solution>

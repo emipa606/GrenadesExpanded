@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <SoundDef>
+    <defName>KillerBunnyBite</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Animals/AnimalBite</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>11</min>
+          <max>13</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.114706</max>
+        </pitchRange>
+        <distRange>
+          <min>50</min>
+          <max>100</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>KillerBunnyGrowl</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Animals/AnimalGrowl</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>9</min>
+          <max>11</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.114706</max>
+        </pitchRange>
+        <distRange>
+          <min>50</min>
+          <max>80</max>
+        </distRange>
+      </li>
+    </subSounds>
+  </SoundDef>
+  <SoundDef>
+    <defName>KillerBunnyAttack</defName>
+    <eventNames />
+    <context>MapOnly</context>
+    <subSounds>
+      <li>
+        <onCamera>True</onCamera>
+        <grains>
+          <li Class="AudioGrain_Clip">
+            <clipPath>Animals/AnimalKiller</clipPath>
+          </li>
+        </grains>
+        <volumeRange>
+          <min>10</min>
+          <max>12</max>
+        </volumeRange>
+        <pitchRange>
+          <min>0.9082353</min>
+          <max>1.114706</max>
+        </pitchRange>
+        <distRange>
+          <min>50</min>
+          <max>100</max>
+        </distRange>
+        <sustainLoop>False</sustainLoop>
+      </li>
+    </subSounds>
+  </SoundDef>
+</Defs>
